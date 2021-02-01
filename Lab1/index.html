@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <p>Denotes Required Information</p>
+        <p>> 1 Donation > 2 Confirmation > 3 Thank You</p>
+        <p>
+          <span style="color: red"><b>Donor Information</b></span>
+        </p>
+        <table align="center" cellpadding = "2">
+               <tr>
+                <td>First Name</td>
+                <td><input type="text" name="First Name"  placeholder="Enter First Name" />
+                 </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="LastName"  placeholder="Enter Last Name"/>
+                
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Company</td>
+                    <td><input type="text" name="Company"  placeholder="Enter Company Name"/>
+                
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Address 1</td>
+                    <td><input type="text" name="Address 1"  placeholder="Enter Address 1"/>
+                
+                    </td>
+                 </tr>
+                </tr>
+                <tr>
+                   <td>Address 2</td>
+                   <td><input type="text" name="Address 2"  placeholder="Enter Address 2"/>
+               
+                   </td>
+                </tr>
+            </tr>
+            <tr>
+               <td>City</td>
+               <td><input type="text" name="City"  placeholder="City"/>
+           
+               </td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                <select name="State" id="State">
+                <option value="-1">Select Your State</option>
+                <option value="1">Dhaka</option>
+                <option value="2">Chittagong</option>
+                <option value="3">Comilla</option>
+                <option value="4">Rajshahi</option>
+                <option value="5">Rangpur</option>
+                <option value="6">Mymensing</option>
+                <option value="7">Shylet</option>
+
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>Zip</td>
+            <td><input type="text" name="Zip"  placeholder="Zip code"/>
+        
+            </td>
+         </tr>
+         <tr>
+            <td>Country</td>
+            <td>
+            <select name="Country" id="Country">
+            <option value="-1">Select a Country</option>
+            <option value="1">Bangladesh</option>
+            <option value="2">India</option>
+            <option value="3">Nepal</option>
+            <option value="4">Bhutan</option>
+            <option value="5">South Korea</option>
+            <option value="6">China</option>
+            <option value="7">Japan</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text" name="Phone"  placeholder="Enter Phone Number"/>
+    
+        </td>
+     </tr>
+     <tr>
+        <td>Fax</td>
+        <td><input type="text" name="Fax"  placeholder="Fax"/>
+    
+        </td>
+     </tr>
+     <tr>
+        <td>Email</td>
+        <td><input type="text" name="Email"  placeholder="Enter Your Email Address"/>
+    
+        </td>
+     </tr>
+     <tr>
+        <td>Donation Amount</td>
+        <td>
+        <input type="radio" name="Donation Amount" value="None" />
+        None
+        <input type="radio" name="Donation Amount" value="$50" />
+        $50
+        <input type="radio" name="Donation Amount" value="$75" />
+        $75
+        <input type="radio" name="Donation Amount" value="$100" />
+        $100
+        <input type="radio" name="Donation Amount" value="other" />
+        other
+
+        </td>
+        <tr>
+        <td>Other Amount</td>
+        <td><input type="text" name="Other Amount"  placeholder="Enter Amount"/>
+    
+        </td>
+    </tr>
+        </tr>
+
+         </table>
+     
+        <section>
+            <form>
+            <p>
+                <span style="color: red"><b>Honorarium and Memorial Donation Information</b></span>
+              </p>
+              <table align="center" cellpadding = "2">
+                <tr>
+                    <td>I Would like to make this donation</td>
+                    <td>
+                    <input type="radio" name="Donation" value="To Honor" />
+                    To Honor
+                    <br>
+                    <input type="radio" name="Donation" value="In Memory Of" />
+                    In Memory Of
+                    
+            
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name </td>
+                    <td><input type="text" name="Name "  placeholder="Enter Name "/>
+                
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Acknowlede Donation to
+                    </td>
+                    <td><input type="text" name=" Acknowlede Donation to"/>
+                
+                    </td>
+                 </tr>
+                <tr>
+                    <td>Address </td>
+                    <td><input type="text" name="Address "  placeholder="Enter Address "/>
+                
+                    </td>
+                 </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="City"  placeholder="City"/>
+                
+                    </td>
+                 </tr>
+                 <tr>
+                     <td>State</td>
+                     <td>
+                     <select name="State" id="State">
+                     <option value="-1">Select Your State</option>
+                     <option value="1">Dhaka</option>
+                     <option value="2">Chittagong</option>
+                     <option value="3">Comilla</option>
+                     <option value="4">Rajshahi</option>
+                     <option value="5">Rangpur</option>
+                     <option value="6">Mymensing</option>
+                     <option value="7">Shylet</option>
+     
+                 </select>
+             </td>
+             </tr>
+             <tr>
+                <td>Zip</td>
+                <td><input type="text" name="Zip"  placeholder="Zip code"/>
+            
+                </td>
+             </tr>
+              </table>
+
+            </form>
+
+        </section>
+        
+        <section>
+            <form>
+                <p>
+                    <span style="color: red"><b>Additional Information</b></span>
+                  </p>
+                  <p>Please enter your name,company or organization as you would like it to appear in our publications</p>
+                <table align="center" cellpadding = "2">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="Name"  placeholder="Enter Name"/>
+                    
+                        </td>
+                        
+                     </tr>
+                   
+
+
+                </table>
+                <input type="checkbox" name="Donation" value="text" />
+I would like my gift remain anonymous<br>
+<input type="checkbox" name="Donation" value="text" />
+My employee offers a machine gift program.I will mail the matching gift form. <br>
+<input type="checkbox" name="Donation" value="text" />
+Please save the cost of Acknowledging this gift by not mailing a thank you letter.<br>
+            <table align="center" cellpadding = "2">
+ 
+                <tr>
+                    <td>Comments<br /><br /><br /></td>
+                    <td><textarea name="Comments" rows="6" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>How may we contact you?<br /><br /><br /></td>
+                        <td>
+                        <br/>
+                        <input type="checkbox" name="Donation" value="text" />
+E-mail<br>
+<input type="checkbox" name="Donation" value="text" />
+Postal Mail <br>
+<input type="checkbox" name="Donation" value="text" />
+Telephone<br>
+<input type="checkbox" name="Donation" value="text" />
+Fax<br>
+
+                        </td>
+                        </tr>
+                    </table >
+                    <p>I would like to receive newsletters and information about special events by</p>
+                   <table align="center" cellpadding = "2">
+                       <tr>
+                           <td>
+                               <input type="checkbox" name="Donation" value="text" />
+                               E-mail<br>
+                               <input  type="checkbox" name="Donation" value="text" />
+                               Postal Mail <br>
+
+                           </td>
+                       </tr>
+                       </table>
+                       <input type="checkbox" name="Donation" value="text" />
+                       I would like information about voulenteering with the<br>
+                       <table  align="center" cellpadding = "2">
+                        <tr>
+                            <td >
+                            <input type="reset"  >
+                            <input type="submit">
+                            </td>
+                            </tr>
+                       </table>
+                       <p>
+                           Donate online with confidence. You are a secure server
+                       </p>
+                       <p>
+                           If you have any problems or questions,please contact support.
+                       </p>
+
+            </form>
+        </section>
+          
+       
+       
+
+
+
+
+        <!-- <label for="first name"><b> Frist Name</b></label>
+        <input type="text" placeholder="Enter First Name" />
+        <br />
+        <label for="last name"><b> Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" />
+        <br />
+        <label for="company"><b> Company</b></label>
+        <input type="text" placeholder="Enter Company Name" />
+        <br />
+        <label for="address 1"><b> Address 1</b></label>
+        <input type="text" placeholder="Enter address 1" />
+        <br />
+        <label for="address 2"><b> Address 2</b></label>
+        <input type="text" placeholder="Enter address 2" />
+        <br />
+        <label for="city"><b> City</b></label>
+        <input type="text" placeholder="Enter city Name" />
+      </div> -->
+    </form>
+  </body>
+</html>
