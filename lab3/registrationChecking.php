@@ -42,19 +42,19 @@ if (isset($_POST['submit'])) {
             echo "Password must not be less than eight (8) characters!";
         }
         $flag = false;
-        // for ($itr = 0; $itr < strlen($password); $itr++) {
-        //     if (($password[$itr] === '@')
-        //         || ($username[$itr] === '#')
-        //         || ($username[$itr] === '$')
-        //         || ($username[$itr] === '%')
-        //     ) {
-        //         $flag = true;
-        //         break;
-        //     }
-        // }
-        // if ($flag == false) {
-        //     echo "Password must contain at least one of the special characters (@, #, $, %)";
-        // }
+        for ($itr = 0; $itr < strlen($password); $itr++) {
+            if (($password[$itr] === '@')
+                || ($username[$itr] === '#')
+                || ($username[$itr] === '$')
+                || ($username[$itr] === '%')
+            ) {
+                $flag = true;
+                break;
+            }
+        }
+        if ($flag == false) {
+            echo "Password must contain at least one of the special characters (@, #, $, %)";
+        }
         if ($password != $confirmPass) {
             echo "Passwords don't match! Try again.";
         }
